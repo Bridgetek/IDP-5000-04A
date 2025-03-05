@@ -9,6 +9,9 @@ IDP903-50A is a development module , powered by Bridgetek FT903 microcontroller 
 *  5-inch square LCD (800x480 pixels) with  Projected Capacitive Multi-Touch support
 
 
+![image](https://github.com/user-attachments/assets/b172eca1-cfcb-42b4-aed8-698ae9eb0026)
+
+
 Here are the folder structure :  
 
 * Docs : documentation, including the datasheet. 
