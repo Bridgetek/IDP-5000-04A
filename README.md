@@ -6,10 +6,8 @@ The repo contains all the development support information for Bridgetek [IDP903-
 IDP903-50A is a development module , powered by Bridgetek FT903 microcontroller with FT813 GPU and integrated with:
 *  Built-in buzzer for audio feedback
 *  RS-485 transceiver
-*  5-inch square LCD (800x480 pixels) with  Projected Capacitive Multi-Touch support
-
-
-![image](https://github.com/user-attachments/assets/b172eca1-cfcb-42b4-aed8-698ae9eb0026)
+*  5-inch landscape LCD (800x480 pixels) with  Projected Capacitive Multi-Touch support
+![image](https://github.com/user-attachments/assets/c654ebe4-59aa-43e2-a2c9-3bac8024448e)
 
 
 Here are the folder structure :  
