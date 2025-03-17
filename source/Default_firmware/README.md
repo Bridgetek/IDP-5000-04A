@@ -48,15 +48,15 @@ Below diagram describe how this folder used in the program:
                 -------------------------------------------
 
 # Usage
-IDP903-50A is using EVE FT813 with FT903 host platform. Users are expected to be familiar with the FT81X programming guide and data sheet for EVE FT813 chip.
+**IDP-5000-04A** is using EVE FT813 with FT903 host platform. Users are expected to be familiar with the FT81X programming guide and data sheet for EVE FT813 chip.
 
 This folder does not include the toolchain for FT903. For information on downloading, installing, and using the toolchain, please visit https://brtchip.com/ft9xx-toolchain/. This folder used toolchain setup can be found at https://brtchip.com/wp-content/uploads/Support/SoftwareExample/FT9xx/FT9xx_Toolchain_Setup_2.8.0_rc2.exe
 
 ## Hardware requirement
-* IDP903-50A development board
+* IDP-5000-04A development board
 * FTDI UMFTPD2A Module
 
-![IDP903-50A](https://github.com/user-attachments/assets/273e4a8a-80c0-4a12-9349-46b8b19587d5)
+![IDP-5000-04A](https://github.com/user-attachments/assets/fb14b1fb-cb21-4b1b-8938-ac1140a9e54a)
 
 ## Build instruction
 1. Install FT903 toolchain and download this folder
@@ -67,17 +67,17 @@ This folder does not include the toolchain for FT903. For information on downloa
 
 2. Launch 'Eclipse for FT9xx', and setup workspace
 
-3. Import IDP903-50A project
+3. Import IDP-5000-04A project
 
 ![image](https://github.com/user-attachments/assets/ed8766c1-4efd-440e-b507-c4edfc1a0e24)
 
 ![image](https://github.com/user-attachments/assets/68a45ff8-fefa-42bb-9c14-83e824533ba8)
 
-![image](https://github.com/user-attachments/assets/49b8b4c0-a2c8-47bd-8b05-5f41c31f783d)
+![image](https://github.com/user-attachments/assets/2fe1a565-033f-4ee2-a1b3-a1ac710def26)
 
 4. Setup building enviroment
 
-![image](https://github.com/user-attachments/assets/7d1e7618-0dd4-47dd-9fbb-ebf6f82eb9ef)
+![image](https://github.com/user-attachments/assets/e6b81521-42c5-4797-9588-ba4e3e839c94)
 
 ![image](https://github.com/user-attachments/assets/b12c211c-8948-4d21-8c28-f5c389bb2374)
 
@@ -85,11 +85,11 @@ This folder does not include the toolchain for FT903. For information on downloa
 
 5. Build the project
 
-![image](https://github.com/user-attachments/assets/cba8a047-26d3-42cb-b031-4afd3980c5ed)
+![image](https://github.com/user-attachments/assets/3b7f7135-65eb-4077-8129-035ae7a60346)
 
-6. The binary file will be in [YOURPATH]\IDP903-50A\source\Default_firmware\FT90x_Debug\IDP903_50A.bin
+6. The binary file will be in [YOURPATH]\IDP-5000-04A\source\Default_firmware\FT90x_Debug\IDP-5000-04A.bin
 
-7. Program the above binary onto the IDP903-50A development board (ensure the debug module is connected to the one-wire debug port as specified in the 'Hardware Requirements' section).
+7. Program the above binary onto the IDP-5000-04A development board (ensure the debug module is connected to the one-wire debug port as specified in the 'Hardware Requirements' section).
 
 ![image](https://github.com/user-attachments/assets/b71c12f4-a79f-47f3-a6fb-926f0665ccdb)
 
@@ -97,7 +97,7 @@ This folder does not include the toolchain for FT903. For information on downloa
 
 ![image](https://github.com/user-attachments/assets/4a5c2fcf-4449-4ff5-bc9e-a2173af7b319)
 
-![image](https://github.com/user-attachments/assets/2d5c7647-a6aa-45a6-b223-92b56682a110)
+![image](https://github.com/user-attachments/assets/8e9ac60b-8c63-4030-8c65-1462f8990027)
 
 ![image](https://github.com/user-attachments/assets/f8bf7657-44ae-4372-b6f1-485f758f840d)
 
