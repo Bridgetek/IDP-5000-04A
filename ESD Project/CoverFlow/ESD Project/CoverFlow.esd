@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_ProjectRoot _uuid="{331a2eec-6011-4b4c-a4a2-1e3763314ee2}" _name="Project" _locked="false" _version="41802" _revision="203">
+    <__Properties>
+        <_targets type="VariantList">
+            <li type="String">STM32F4</li>
+            <li type="String">IDP-5000-04A</li>
+        </_targets>
+        <_toolchain type="String"></_toolchain>
+        <definitions type="VariantList">
+            <li type="String">EVE_GRAPHICS_IDP_5000_04A</li>
+            <li type="String">EVE_DISPLAY_WVGA</li>
+            <li type="String">MM900EV2A</li>
+            <li type="String">EVE_TOUCH_FOCAL</li>
+        </definitions>
+        <definitions target="STM32F4" type="VariantList">
+            <li type="String">EVE_GRAPHICS_ME817EV</li>
+            <li type="String">EVE_DISPLAY_WVGA</li>
+            <li type="String">EVE_PLATFORM_STM32</li>
+            <li type="String">EVE_TOUCH_FOCAL</li>
+        </definitions>
+    </__Properties>
+    <_ProjectRootLink _uuid="{72a2f593-d541-480c-982f-89c2a92b928d}" _name="Esd_Core.esd" _locked="false" fileName="%ESD30_LIBRARIES%/Esd_Core/Esd_Core.esd" type="_ProjectRoot">
+        <__Properties>
+            <_target type="String">FT8XX</_target>
+        </__Properties>
+    </_ProjectRootLink>
+    <_ProjectRootLink _uuid="{685fe82a-3fb9-42c1-b0bf-3c146bcc5a2c}" _name="FT_Esd_Framework.esd" _locked="false" fileName="%ESD30_LIBRARIES%/FT_Esd_Framework/FT_Esd_Framework.esd" type="_ProjectRoot">
+        <__Properties>
+            <_target type="String">FT8XX</_target>
+        </__Properties>
+    </_ProjectRootLink>
+    <_ProjectRootLink _uuid="{3d29775d-1e0d-4fc1-9c1a-ef00ae6ad070}" _name="FT_Esd_Widgets.esd" _locked="false" fileName="%ESD30_LIBRARIES%/FT_Esd_Widgets/FT_Esd_Widgets.esd" type="_ProjectRoot">
+        <__Properties>
+            <_target type="String">FT80X</_target>
+            <_target target="IDM2040-7A" type="String">BT81X</_target>
+            <_target target="STM32F4" type="String">BT81X</_target>
+        </__Properties>
+    </_ProjectRootLink>
+    <_ProjectRootLink _uuid="{f54e5d14-c535-409c-b184-5b956daf8e69}" _name="FT_Eve_Hal.esd" _locked="false" fileName="%ESD30_LIBRARIES%/FT_Eve_Hal/FT_Eve_Hal.esd" type="_ProjectRoot">
+        <__Properties>
+            <_target type="String">FT8XX</_target>
+        </__Properties>
+    </_ProjectRootLink>
+    <_ProjectFolder _uuid="{7da6e891-6aa2-459d-b8d6-dc89f5960651}" _name="Resources" _locked="false">
+        <_ProjectFileResource _uuid="{c51b3ac8-fde3-4604-8df6-13aa5dbaf520}" _name="barbecue.jpg" _locked="false" fileName="Resources/barbecue.jpg">
+            <_BitmapResource _uuid="{2146c8e5-2be0-41ae-a60d-130e879a6f7f}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{133654ad-cdc2-4305-afc2-e9c79b79b04b}" _name="chess.jpg" _locked="false" fileName="Resources/chess.jpg">
+            <_BitmapResource _uuid="{fd23b4ba-383c-4b03-9977-d40b2b08f57a}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{ef23dc52-98b6-47f7-bcc0-689d38938b2d}" _name="diveevo.jpg" _locked="false" fileName="Resources/diveevo.jpg">
+            <_BitmapResource _uuid="{e74baec8-5956-4332-b125-1493c418bf31}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{f8e127a0-4b7c-43ba-badb-5951256738d4}" _name="fire.jpg" _locked="false" fileName="Resources/fire.jpg">
+            <_BitmapResource _uuid="{86090a8e-5d37-4dd2-b0d0-b7beb2a12fe7}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{94f5820c-0bfa-4a22-9ac8-47c10157b0b8}" _name="keyboard.jpg" _locked="false" fileName="Resources/keyboard.jpg">
+            <_BitmapResource _uuid="{cb4c1e38-b592-49cf-97e1-8ff108822fe8}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{bb2d55b9-f665-4b6c-982f-4ab97b9ee081}" _name="locomotive.jpg" _locked="false" fileName="Resources/locomotive.jpg">
+            <_BitmapResource _uuid="{e632c126-8998-44b0-9a68-f457b74f18e9}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{6437a2cf-1e7b-4420-a2de-409eae0e2791}" _name="person.jpg" _locked="false" fileName="Resources/person.jpg">
+            <_BitmapResource _uuid="{f2d2ad1b-1672-4fc0-8c14-f936939f9a41}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{01ad17a0-4303-4b0e-9b55-81c66c54aa57}" _name="rose.jpg" _locked="false" fileName="Resources/rose.jpg">
+            <_BitmapResource _uuid="{6393331b-97b9-4b55-abc1-307b523d27cd}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+        <_ProjectFileResource _uuid="{8a916faa-1919-4966-86b6-106c7eb07a43}" _name="seagull.jpg" _locked="false" fileName="Resources/seagull.jpg">
+            <_BitmapResource _uuid="{7e39646b-1a4b-4830-a31e-1e4585de13c4}" _name="Bitmap" _locked="false">
+                <__Properties>
+                    <Category type="String"></Category>
+                    <Format type="String">RGB565</Format>
+                    <Compressed type="String">false</Compressed>
+                    <ResourceType type="String">ESD_RESOURCE_FILE</ResourceType>
+                    <CellHeight type="String"></CellHeight>
+                    <CellNames type="String"></CellNames>
+                    <Persistent type="String">false</Persistent>
+                </__Properties>
+            </_BitmapResource>
+        </_ProjectFileResource>
+    </_ProjectFolder>
+    <_ProjectFileLink _uuid="{492dc6ed-5baa-421a-9cfb-eeafdada5daa}" _name="App.main" _locked="false" fileName="App.main" type="_ApplicationDocument"/>
+    <_ProjectFileLink _uuid="{1fe6e90a-b7f9-4416-9eaa-278e009d485c}" _name="AppScreen.page" _locked="false" fileName="AppScreen.page" type="_WidgetDocument"/>
+    <_ProjectFileLink _uuid="{daa5bafe-6667-4991-a117-a42a6b824ebd}" _name="DefaultTheme.theme" _locked="false" fileName="DefaultTheme.theme" type="_ThemeDocument"/>
+    <_ProjectFileLink _uuid="{f69aed73-7c15-4602-9224-319ea05e3536}" _name="FirstPage.page" _locked="false" fileName="FirstPage.page" type="_WidgetDocument"/>
+    <_ProjectFileResource _uuid="{006e5a42-3d77-4910-8bd2-71dac6cf12e2}" _name="Usr_Widget.c" _locked="false" fileName="Usr_Widget.c">
+        <_SourceFile _uuid="{a61b54f3-60d8-4bd5-8419-8b67f0d31284}" _name="Source File" _locked="false"/>
+    </_ProjectFileResource>
+    <_ProjectFileLink _uuid="{49137876-a968-4947-affd-196820e624a4}" _name="Usr_Widget.widget" _locked="false" fileName="Usr_Widget.widget" type="_WidgetDocument"/>
+</_ProjectRoot>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_ApplicationDocument _uuid="{587c422d-a059-4069-852f-64de3c46cb69}" _locked="false" displayName="" comment="" category="" defaultSignal="" icon="" _version="40001" _revision="2">
+    <_ConnectionContainer _uuid="{93fcf6ac-690e-4c96-b843-6cfaf187ee95}" _name="Connections" _locked="false">
+        <_Connection _uuid="{006adf4d-92c8-456b-9882-d01475bbb09e}" _name="Render Set Default Theme" _locked="false" connectionType="SignalSlot" sourceObject="{179b0d28-9561-4939-820a-664ece0eea4e}" sourceConnector="signal" targetObject="{7c64d630-730b-4aea-95f5-5cd2b8d38666}" targetConnector="_call"/>
+        <_Connection _uuid="{4e7fe3db-5911-428e-85ca-2a8e7121d9d2}" _name="Start Set Default Theme" _locked="false" connectionType="SignalSlot" sourceObject="{65c1c391-2e8c-4775-9130-47fa25e53b8d}" sourceConnector="signal" targetObject="{7c64d630-730b-4aea-95f5-5cd2b8d38666}" targetConnector="_call"/>
+    </_ConnectionContainer>
+    <_NodeContainer _uuid="{0a29d2fb-05ad-40e0-ba33-804f4892bfa7}" _name="Nodes" _locked="false">
+        <_LogicBlockSlot _uuid="{65c1c391-2e8c-4775-9130-47fa25e53b8d}" _name="Start" _locked="false" _x="0" _y="0" _color="#303030" _background="#606060" _displayName=""/>
+        <_LogicBlockSlot _uuid="{b7a1f892-448b-4a55-b335-15d1906426a7}" _name="Update" _locked="false" _x="0" _y="50" _color="#303030" _background="#606060" _displayName=""/>
+        <_LogicBlockSlot _uuid="{179b0d28-9561-4939-820a-664ece0eea4e}" _name="Render" _locked="false" _x="0" _y="100" _color="#303030" _background="#606060" _displayName=""/>
+        <Ft_Esd_Theme_SetCurrent _uuid="{7c64d630-730b-4aea-95f5-5cd2b8d38666}" _name="Set Default Theme" _locked="false" _x="300" _y="100" _color="#303030" _background="#606060">
+            <__Properties>
+                <theme type="String">DefaultTheme</theme>
+            </__Properties>
+        </Ft_Esd_Theme_SetCurrent>
+        <_LogicBlockSlot _uuid="{84fd935a-dc91-4197-8472-87aa5445dc37}" _name="Idle" _locked="false" _x="0" _y="150" _color="#303030" _background="#606060" _displayName=""/>
+        <_LogicBlockSlot _uuid="{e6577d22-710c-422e-a1c4-005aafbac9b5}" _name="End" _locked="false" _x="0" _y="200" _color="#303030" _background="#606060" _displayName=""/>
+    </_NodeContainer>
+    <_PageContainer _uuid="{49101456-39d8-4b02-b40d-1c757e03ea92}" _name="User Interface" _locked="false">
+        <AppScreen _super="_Widget" _uuid="{f14bdef4-bdfb-4e9b-95e0-70dd5a4f9755}" _name="App Screen" _locked="false" _x="300" _y="0" _color="#b02122" _background="#606060" _allocation="Static" _z="0">
+            <__Properties>
+                <_widgetActive type="bool">true</_widgetActive>
+                <_widgetX type="int">0</_widgetX>
+                <_widgetY type="int">0</_widgetY>
+                <_widgetWidth type="int">400</_widgetWidth>
+                <_widgetHeight type="int">300</_widgetHeight>
+            </__Properties>
+        </AppScreen>
+    </_PageContainer>
+</_ApplicationDocument>

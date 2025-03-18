@@ -1,0 +1,2 @@
+Resolution=800x480
+Description=CoverFlow is an example project for STM32F4 hardware, show the CoverFlow slideshow animation. It utilizes EVE flash memory, Custom Font and SD card to display the images.

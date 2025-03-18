@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_WidgetDocument _uuid="{0ec86c9b-d625-415c-aa71-af9cb692f8f4}" _locked="false" displayName="" comment="" category="" defaultSignal="" icon="" _version="40001" _revision="36" purpose="Page" backToFront="">
+    <_ActorContainer _uuid="{6908b682-a63e-42c8-8224-37bdbae04716}" _name="Actors" _locked="false"/>
+    <_ConnectionContainer _uuid="{889b4169-cf51-4309-b6a6-11508fba4256}" _name="Connections" _locked="false"/>
+    <_NodeContainer _uuid="{db438059-74e7-4708-bb27-e688e472449c}" _name="Nodes" _locked="false"/>
+    <_WidgetContainer _uuid="{5bad9cb6-a89d-451e-8530-17f9b9c64de8}" _name="Widgets" _locked="false">
+        <__Properties>
+            <width type="int">400</width>
+            <height type="int">300</height>
+        </__Properties>
+        <Ft_Esd_Layout_Fixed _super="_Widget" _uuid="{22d0549a-d919-427b-b969-805a1e7e13a0}" _name="Fixed Position" _locked="false" _x="-90" _y="-346" _color="#8544a5" _background="#606060" _z="0">
+            <__Properties>
+                <_widgetActive type="bool">true</_widgetActive>
+                <_widgetX type="int">0</_widgetX>
+                <_widgetY type="int">0</_widgetY>
+                <_widgetWidth type="int">50</_widgetWidth>
+                <_widgetHeight type="int">50</_widgetHeight>
+            </__Properties>
+            <Ft_Esd_ScrollingText _super="_Widget" _uuid="{6aaec265-ad70-44ae-b2f1-423d25ab164c}" _name="ESD Scrolling Text" _locked="false" _x="0" _y="0" _color="#62af21" _background="#606060" _allocation="Static" _z="4">
+                <__Properties>
+                    <_widgetActive type="bool">true</_widgetActive>
+                    <_widgetX type="double">208</_widgetX>
+                    <_widgetY type="double">419</_widgetY>
+                    <_widgetWidth type="int">320</_widgetWidth>
+                    <_widgetHeight type="int">37</_widgetHeight>
+                    <Theme type="String">Ft_Esd_Theme_GetCurrent</Theme>
+                    <Font type="int">30</Font>
+                    <Text type="String">Welcome to EVE Screen Designer</Text>
+                    <Position type="String">RIGHT_TO_LEFT</Position>
+                    <Speed type="String">1</Speed>
+                </__Properties>
+            </Ft_Esd_ScrollingText>
+            <Ft_Esd_Label _super="_Widget" _uuid="{de2dbabd-62b4-4e94-be92-4613be4993a9}" _name="ESD Label 2" _locked="false" _x="0" _y="0" _color="#62af21" _background="#606060" _allocation="Static" _z="3">
+                <__Properties>
+                    <_widgetActive type="bool">true</_widgetActive>
+                    <_widgetX type="double">256</_widgetX>
+                    <_widgetY type="double">13</_widgetY>
+                    <_widgetWidth type="double">296</_widgetWidth>
+                    <_widgetHeight type="double">50</_widgetHeight>
+                    <AutoResize type="String">ESD_AUTORESIZE_HEIGHT</AutoResize>
+                    <Alpha type="String">255</Alpha>
+                    <Theme type="String">Ft_Esd_Theme_GetCurrent</Theme>
+                    <Font type="int">30</Font>
+                    <FontResource type="String"></FontResource>
+                    <Text type="String">CoverFlow Animation</Text>
+                    <AlignX type="String">OPT_ALIGN_LEFT</AlignX>
+                    <AlignY type="String">OPT_ALIGN_TOP</AlignY>
+                </__Properties>
+            </Ft_Esd_Label>
+            <Usr_Widget _super="_Widget" _uuid="{11f3f8c9-4488-4d00-a184-af0d5c979b26}" _name="Usr_Widget" _locked="false" _x="-17" _y="191" _color="#62af21" _background="#606060" _allocation="Static" _z="2">
+                <__Properties>
+                    <_widgetActive type="bool">true</_widgetActive>
+                    <_widgetX type="int">0</_widgetX>
+                    <_widgetY type="int">50</_widgetY>
+                    <_widgetWidth type="int">800</_widgetWidth>
+                    <_widgetHeight type="int">400</_widgetHeight>
+                    <ImageArray type="VariantList">
+                        <li type="String">barbecue_0</li>
+                        <li type="String">chess_0</li>
+                        <li type="String">diveevo_0</li>
+                        <li type="String">fire_0</li>
+                        <li type="String">keyboard_0</li>
+                        <li type="String">locomotive_0</li>
+                        <li type="String">person_0</li>
+                        <li type="String">rose_0</li>
+                        <li type="String">seagull_0</li>
+                    </ImageArray>
+                </__Properties>
+            </Usr_Widget>
+            <Ft_Esd_Label _super="_Widget" _uuid="{d1264f32-493a-4d66-a914-afd980be0bd5}" _name="ESD Label" _locked="false" _x="-26" _y="-175" _color="#62af21" _background="#606060" _allocation="Static" _z="1">
+                <__Properties>
+                    <_widgetActive type="bool">true</_widgetActive>
+                    <_widgetX type="double">4</_widgetX>
+                    <_widgetY type="double">1</_widgetY>
+                    <_widgetWidth type="int">120</_widgetWidth>
+                    <_widgetHeight type="int">36</_widgetHeight>
+                    <AutoResize type="String">ESD_AUTORESIZE_HEIGHT</AutoResize>
+                    <Alpha type="String">255</Alpha>
+                    <Theme type="String">Ft_Esd_Theme_GetCurrent</Theme>
+                    <Font type="int">31</Font>
+                    <Text type="String">ESD</Text>
+                    <AlignX type="String">OPT_ALIGN_LEFT</AlignX>
+                    <AlignY type="String">OPT_ALIGN_TOP</AlignY>
+                </__Properties>
+            </Ft_Esd_Label>
+            <Ft_Esd_MultiGradientRounded _super="_Widget" _uuid="{055deebe-73bd-4400-acaf-418f0735b88b}" _name="ESD Multi Gradient (Rounded)" _locked="false" _x="206" _y="-42" _color="#62af21" _background="#606060" _allocation="Static" _z="0">
+                <__Properties>
+                    <_widgetActive type="bool">true</_widgetActive>
+                    <_widgetX type="int">0</_widgetX>
+                    <_widgetY type="int">0</_widgetY>
+                    <_widgetWidth type="int">800</_widgetWidth>
+                    <_widgetHeight type="int">480</_widgetHeight>
+                    <Alpha type="String">255</Alpha>
+                    <Radius type="String">4</Radius>
+                    <TopLeft type="Color">#0019f7</TopLeft>
+                    <TopRight type="Color">#0019f7</TopRight>
+                    <BottomLeft type="Color">#000218</BottomLeft>
+                    <BottomRight type="Color">#000218</BottomRight>
+                </__Properties>
+            </Ft_Esd_MultiGradientRounded>
+        </Ft_Esd_Layout_Fixed>
+    </_WidgetContainer>
+</_WidgetDocument>
