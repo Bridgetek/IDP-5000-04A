@@ -16,3 +16,7 @@ This folder includes the CoverFlow Animation example projects and ESD binary fil
 3. **Insert the SD Card**: Open the cover of the IDP-5000-04A by removing the screw, then insert the SD card into its designated slot.
 
 
+![image](https://github.com/user-attachments/assets/d3c095b8-97cf-4822-aa9f-06d4035d869b)
+
+
+
