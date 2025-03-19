@@ -8,3 +8,11 @@ This folder includes the CoverFlow Animation example projects and ESD binary fil
   ![image](https://github.com/user-attachments/assets/378a640e-18ab-457b-af88-31889fa39762)
 
 
+  
+## Steps to Run the Example Project  
+
+1. **Download the Firmware**: Use the oneWire programming module to download the firmware "CoverFlow.bin" onto the IDP-3500-04A.  
+2. **Prepare the SD Card**: Format an SD card with the FAT32 file system and copy all files from the *Exported Project/Data* folder into the root directory.  
+3. **Insert the SD Card**: Open the cover of the IDP-3500-04A by removing the screw, then insert the SD card into its designated slot.
+
+
