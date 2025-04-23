@@ -14,7 +14,7 @@ Here are the folder structure :
 
 * Docs : documentation, including the datasheet, which contains hardware specification.
 * Srcs\Default firmware:  The source code and binary which is shipped with the product.
-* BSP (Board Support Package) :  To Be Updated  
+* BSP (Board Support Package) : under Srcs\BSP , the drivers for the important hardware interfaces. A test program is included too. 
 
 
 ## IDE support for GUI application development  
