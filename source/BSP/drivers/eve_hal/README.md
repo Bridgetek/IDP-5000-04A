@@ -9,7 +9,6 @@ The EVE Hardware Abstraction Layer consists of the following modules:
 * **EVE_Util**: Utilities for bootup, reset, and other common management.
 * **EVE_Platform**: Host platform support.
 * **EVE_MediaFifo**: MediaFifo support.
-* **EVE_LoadFile**: load file helper function.
 
 # Usage
 
@@ -260,13 +259,3 @@ Host platform support, working with EVE_HalImpl to provide host-dependent functi
 * EVE_MediaFifo_wrMem
 * EVE_MediaFifo_waitFlush
 * EVE_MediaFifo_waitSpace
-
-# EVE_LoadFile
-
-* EVE_Util_loadRawFile
-* EVE_Util_loadInflateFile
-* EVE_Util_loadImageFile
-* EVE_Util_loadCmdFile
-* EVE_Util_readFile
-* EVE_Util_loadMediaFile
-* EVE_Util_closeFile

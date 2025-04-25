@@ -46,11 +46,6 @@
 #define GPIO_FT800_INT (0)
 #define GPIO_FT800_PWD (1)
 
-#define GPIO_KD2401_CS1 (33)
-#define GPIO_KD2401_DCX (34)
-#define pad_kd2401_dcx (pad_func_0)
-#define pad_kd2401_cs1 (pad_func_0)
-
 #define GPIO_SD_CLK (19)
 #define GPIO_SD_CMD (20)
 #define GPIO_SD_DAT3 (21)
@@ -59,6 +54,37 @@
 #define GPIO_SD_DAT0 (24)
 #define GPIO_SD_CD (25)
 #define GPIO_SD_WP (26)
+
+ /** @brief LED gpio pin */
+#define RGB_LED_POWER_ENABLE_PIN	58
+#define RGB_LED_CLK_PIN	       56
+#define RGB_LED_DATA_PIN	   57
+
+/** @brief switch gpio pin */
+#define SWITCH_ID0				6
+#define SWITCH_ID1				7
+#define SWITCH_ID2				8
+#define SWITCH_ID3				9
+
+/** @brief 8bit I2C address for the temperature sensor */
+#define TEMP_SENSOR_ADDRESS	    (0x90)
+#define TEMP_SENSOR_I2C0_SCL    44
+#define TEMP_SENSOR_I2C0_SDA    45
+
+/** @brief mic I2S pin */
+#define MIC_I2S_SDAO            60
+#define MIC_I2S_SDAI            61
+#define MIC_I2S_BCLK            62
+#define MIC_I2S_LRCLK           63
+#define MIC_I2S_MCLK            64
+#define MIC_CLK24_EN            65
+#define MIC_CLK24_IN            66
+
+/** @brief 7bit I2C address converted to 8 bit for light sensor*/
+#define ALS_ADDRESS             (0x29 << 1)
+#define ALS_I2C1_SCL            46
+#define ALS_I2C1_SDA            47
+
 
  /* Timer 1 is been utilized in case of FT900 platform */
 #define FT900_FT_MILLIS_TIMER (timer_select_b)
@@ -71,5 +97,16 @@
 #define RTC_PRESENT (1)
 #endif
 #endif /* RTC_PRESENT */
+
+typedef enum {
+	dvr_als = 0, //0x00000001
+	dvr_eve,
+	dvr_i2c,
+	dvr_led,
+	dvr_mic,
+	dvr_sd,
+	dvr_temp,
+	dvr_max
+} DRIVER_FAILFLAG_BITNUM;
 
 #endif // _BSP_HWDEFS_H_

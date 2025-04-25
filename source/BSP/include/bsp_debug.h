@@ -8,8 +8,6 @@
 #include "usbdbg.h"
 #include "tinyprintf.h"
 
-#define ENABLE_USBDBG   1
-
 #if ENABLE_USBDBG
 #define PR_ERROR(fmt, ...)              \
 	do                                  \
@@ -36,7 +34,7 @@
 	} while (false)
 
 
-#define eve_printf(fmt, ...)      \
+#define eve_printf(fmt, ...)            \
 	do                                  \
 	{                                   \
 		tfp_printf(fmt, ##__VA_ARGS__); \
